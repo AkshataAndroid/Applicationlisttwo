@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_analytics"
+        android:icon="@drawable/analytics"
+        android:title="Analyitics" />
+    <item
+        android:id="@+id/navigation_app"
+        android:icon="@drawable/applications"
+        android:title="Applications" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/job"
+        android:title="Notification" />
+</menu>

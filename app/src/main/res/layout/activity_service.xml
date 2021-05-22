@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ServiceActivity">
+    <TextView
+        android:id="@+id/titleServices"
+        android:text="Services"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_alignParentStart="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/back"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/totalServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/titleServices"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="-33dp"
+        android:text="aaa" />
+
+    <ListView
+        android:id="@+id/servicesList"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+
+        android:textColor="@color/white"
+        android:layout_below="@id/titleServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
